@@ -11,4 +11,4 @@ I randomly choose 30 results and run it to Run Selector, obtained an [accession 
 Install the toolkit [here](https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit). Move on to the configuration guide.
 
 Download FASTQ files:
-`fasterq-dump --split-files SRR_Acc_List.txt`
+`fasterq-dump --split-files ACCESSION`
