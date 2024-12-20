@@ -1,6 +1,6 @@
 <header>
 
-# Download FASTQ data
+# Download FASTQ sequencing data
 
 </header>
 
