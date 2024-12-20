@@ -4,7 +4,7 @@
 
 </header>
 
-This project examines the statistical methods used to analyze high dimensional genomic data.
+This project looks at different exploratory statistical methods methods used to analyze high dimensional genomic data.
 
 ## What are high dimensional data?
 
