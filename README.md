@@ -25,6 +25,6 @@ High dimensional data are data in which the number of features, _p_, are close t
 <footer>
 
 Reference:
-- [High dimensional statistics with R] (https://carpentries-incubator.github.io/high-dimensional-stats-r/)
+- [High dimensional statistics with R]([url](https://carpentries-incubator.github.io/high-dimensional-stats-r/))
 
 </footer>
