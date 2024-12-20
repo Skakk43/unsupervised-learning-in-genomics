@@ -4,7 +4,7 @@
 
 </header>
 
-This project looks at different exploratory statistical methods methods used to analyze high dimensional genomic data.
+This project looks at different exploratory statistical methods methods used to analyze 22 dog (_Canis lupus familiaris_) genomes from NCBI. Only sequence data is used. The goal is to recognize and interpret patterns of an unlabeled dataset.
 
 ## What are high dimensional data?
 
@@ -22,9 +22,11 @@ High dimensional data are data in which the number of features, _p_, are close t
 > 3. __Dimensionality reduction__ is commonly used on high-dimensional datasets for data exploration or as a preprocessing step prior to other downstream analyses. For instance, a low-dimensional visualisation of a gene expression dataset may be used to inform quality control steps (e.g. are there any anomalous samples?). This course contains two episodes that explore dimensionality reduction techniques: Principal component analysis and Factor analysis.
 > 4. __Clustering__ methods can be used to identify potential grouping patterns within a dataset. A popular example is the identification of distinct cell types through clustering cells with similar gene expression patterns. The K-means episode will explore a specific method to perform clustering analysis.
 
+
 <footer>
 
 Reference:
 - [High dimensional statistics with R](https://carpentries-incubator.github.io/high-dimensional-stats-r/)
+- [NCBI dog genomes](https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=9615)
 
 </footer>
