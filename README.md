@@ -1,6 +1,6 @@
 <header>
 
-# Project Proposal
+# Project Description
 
 </header>
 
