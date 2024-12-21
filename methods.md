@@ -1,5 +1,5 @@
 <header>
-  # Methods
+# Methods
 </header>
 
 ## Raw sequence data selection
