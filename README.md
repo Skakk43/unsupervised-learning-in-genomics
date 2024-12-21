@@ -10,7 +10,7 @@ This project looks at different exploratory methods used to analyze dog (_Canis 
 
 ## Raw sequence data selection
 
-A total of 30 raw sequence data were obtained from NCBI. Commen fields were:
+I hand picked 30 raw sequence data from three BioProject from NCBI. Commen fields were:
 - Species: _Canis lupus familiaris_
 - File type: FASTQ
 - Library layout: paired
