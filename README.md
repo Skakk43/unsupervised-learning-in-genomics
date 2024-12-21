@@ -4,7 +4,7 @@
 
 </header>
 
-This project looks at different exploratory statistical methods used to analyze dog (_Canis lupus familiaris_) genomic data.
+This project looks at different exploratory methods used to analyze dog (_Canis lupus familiaris_) genomic data.
 
 <footer>
 
