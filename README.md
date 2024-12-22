@@ -1,8 +1,4 @@
-<header>
-
 # About this project
-
-</header>
 
 This project looks at different exploratory methods used to analyze dog (_Canis lupus familiaris_) genomic data.
 
@@ -10,19 +6,35 @@ This project looks at different exploratory methods used to analyze dog (_Canis 
 
 ## Raw sequence data selection
 
-I hand picked 30 raw sequence data from three BioProject from [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra).
-Commen fields were:
+30 raw sequence data were hand picked from from [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra), coming from three different BioProject.
+Commen fields include:
 - Species: _Canis lupus familiaris_
 - File type: FASTQ
 - Library layout: paired
 - Instrument: Illumina NovaSeq 6000
 
-Refer to the [accession number](SRR_Acc_List.txt) and [metadata](SraRunTable.csv).
+More information on their [accession number](SRR_Acc_List.txt) and [metadata](SraRunTable.csv).
 
+## Download FASTQ sequencing data
 
-<footer>
+After installing the SRA toolkit, download SRA sequencing data by running the following command and substituting `ACCESSION` with the accession number of each sample data.
 
+`prefetch --max-size u ACCESSION`
+
+Next, extract FASTQ files from SRA:
+
+`fasterq-dump ACCESSION`
+
+When finished, I get three output files for each accession:
+
+`ACCESSION.fastq`
+
+`ACCESSION_1.fastq`
+
+`ACCESSION_2.fastq`
+
+For each spot in a sequencing data, if there are two biological reads satisfying filter conditions, the first is placed in the `*_1.fastq` file, and the second is placed in the `*_2.fastq` file. If there is only one biological read satisfying the filter conditions, it is placed in the `*.fastq` file. All other reads in the spot are ignored.
+
+---
 References:
 - [Speciation & Population Genomics: a how-to-guide](https://speciationgenomics.github.io/)
-
-</footer>
