@@ -21,17 +21,17 @@ After installing the SRA toolkit, download SRA sequencing data by running the fo
 
 `prefetch --max-size u ACCESSION`
 
-Next, extract FASTQ files from SRA:
+Next, extract FASTQ files from SRA and compress to reduce file size:
 
-`fasterq-dump ACCESSION`
+`fasterq-dump ACCESSION | gzip`
 
 When finished, I get three output files for each accession:
 
-`ACCESSION.fastq`
+`ACCESSION.fastq.gz`
 
-`ACCESSION_1.fastq`
+`ACCESSION_1.fastq.gz`
 
-`ACCESSION_2.fastq`
+`ACCESSION_2.fastq.gz`
 
 For each spot in a sequencing data, if there are two biological reads satisfying filter conditions, the first is placed in the `*_1.fastq` file, and the second is placed in the `*_2.fastq` file. If there is only one biological read satisfying the filter conditions, it is placed in the `*.fastq` file. All other reads in the spot are ignored.
 
