@@ -13,7 +13,7 @@ Commen fields include:
 - Library layout: paired
 - Instrument: Illumina NovaSeq 6000
 
-More information on their [accession number](SRR_Acc_List.txt) and [metadata](SraRunTable.csv).
+More information on the [accession ID](SRR_Acc_List.txt) and [metadata](SraRunTable.csv).
 
 ## Download FASTQ sequencing data
 
