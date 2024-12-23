@@ -25,9 +25,13 @@ Next, extract FASTQ files from SRA and compress to reduce file size:
 
 `fastq-dump --gzip --skip-technical --outdir path/to/fastq --split-3 path/to/ACCESSION.sra`
 
-`--gzip` compress the file as `.gz`. `--skip-technical` skip technical reads. `--outdir path/to/fastq` specify the output directory.
+`--gzip` compress the file as `.gz`.
 
-For each spot in a sequencing data, if there are two biological reads satisfying filter conditions, the first is placed in the `ACCESSION_1.fastq` file, and the second is placed in the `ACCESSION_2.fastq` file. If there is only one biological read satisfying the filter conditions, it is placed in the `ACCESSION.fastq` file. All other reads in the spot are ignored.
+`--skip-technical` skip technical reads.
+
+`--outdir path/to/fastq` specify the output directory.
+
+`--split-3` splits reads in each spot of the sequencing data based on the number of biological reads. If there are two biological reads satisfying filter conditions, the first is placed in the `ACCESSION_1.fastq` file, and the second is placed in the `ACCESSION_2.fastq` file. If there is only one biological read satisfying the filter conditions, it is placed in the `ACCESSION.fastq` file. All other reads in the spot are ignored.
 
 ---
 References:
