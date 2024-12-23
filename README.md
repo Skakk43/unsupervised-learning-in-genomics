@@ -1,6 +1,6 @@
 # About this project
 
-This project looks at different exploratory methods used to analyze dog (_Canis lupus familiaris_) genomic data.
+This project looks at different exploratory methods used to analyze dog (_Canis lupus familiaris_) genomic data. The objective is to pratice bioinformatics programming.
 
 # Methods
 
